@@ -14,3 +14,8 @@ The program's flow as follow.
 3)  When the result of the input data is matched, it will come out "wpa_supplicant" configure file.
 
 And then, you could use "wpa_cli" command to connect the network.
+
+#wpa_cli
+#wpa_supplicant.conf
+#how to generate wpa_supplicant.conf
+#how to get wpa_supplicant.conf
