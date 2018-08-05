@@ -7,13 +7,10 @@ Therefore, I use these program to generate different encrypted type of  "wpa_sup
 
 The program's flow as follow.
 
-1) 
-Input SSID and password.
+1)  Input SSID and password.
 
-2)
-Use "wpa_cli" command to get the result of the site survey, and classify them by encrypting way.
+2)  Use "wpa_cli" command to get the result of the site survey, and classify them by encrypting way.
 
-3)
-When the result of the input data is matched, it will come out "wpa_supplicant" configure file.
+3)  When the result of the input data is matched, it will come out "wpa_supplicant" configure file.
 
 And then, you could use "wpa_cli" command to connect the network.
