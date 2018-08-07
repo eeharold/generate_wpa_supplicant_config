@@ -1,4 +1,8 @@
-
+#define INTERFACE_NAME "wlan0"
+#define DIR_PATH "/tmp"
+#define CONFIG_FILENAME "wpa_supplicant.conf"
+#define CTRL_INTERFACE "/var/run/wpa_supplicant"
+#define MAX_SCAN_TIMES 3
 
 enum WIFI_SECURITY_MODE
 {
