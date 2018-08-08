@@ -3,6 +3,9 @@
 #define CONFIG_FILENAME "wpa_supplicant.conf"
 #define CTRL_INTERFACE "/var/run/wpa_supplicant"
 #define MAX_SCAN_TIMES 3
+#define MAX_SSID_LENGTH 32
+#define MAX_SAVE_AP	50
+
 
 enum WIFI_SECURITY_MODE
 {
