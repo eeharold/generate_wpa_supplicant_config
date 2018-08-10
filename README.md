@@ -19,3 +19,5 @@ And then, you could use "wpa_cli" command to connect the network.
 #wpa_supplicant.conf
 #how to generate wpa_supplicant.conf
 #how to get wpa_supplicant.conf
+#auto generate wpa_supplicant.conf
+#ease of use wpa_supplicant
