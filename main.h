@@ -2,7 +2,7 @@
 #define DIR_PATH "/tmp"
 #define CONFIG_FILENAME "wpa_supplicant.conf"
 #define CTRL_INTERFACE "/var/run/wpa_supplicant"
-#define MAX_SCAN_TIMES 3
+#define MAX_SCAN_TIMES 1
 #define MAX_SSID_LENGTH 32
 #define MAX_SAVE_AP	50
 
@@ -24,6 +24,13 @@ typedef struct _WiFi_SCAN_RESULT
 {
 	int frequency;
 	int rssi;
-	char security_mode;//reference WIFI_SECURITY_MODE
+	enum WIFI_SECURITY_MODE security_mode;
 	char ssid[MAX_SSID_LENGTH+1];
 } WiFi_SCAN_RESULT;
+
+enum RETURN_STATUS {
+    SUCCESSFUL = 0,
+    FILE_OPEN_ERROR = 1,
+    INPUT_ERROR = 2,
+    FIND_ROUTER_FAIL=3,
+};
